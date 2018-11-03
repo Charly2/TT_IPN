@@ -1,1 +1,4 @@
+
+ErrorDocument 500 /info.php
+
 Options -Indexes

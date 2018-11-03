@@ -12,7 +12,9 @@ include_once '../app/init.php';
 
 $app = new Core();
 
+//print_r($_GET);
 
 ?>
 
 
+hola

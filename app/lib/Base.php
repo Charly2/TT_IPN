@@ -7,7 +7,7 @@
  */
 
 
-    define(PATH_URL,'http://localhost/tt/');
+    define(PATH_URL,'/TT_IPN/');
 
 function extractCod($obj,$cod)
 {

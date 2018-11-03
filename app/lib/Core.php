@@ -8,7 +8,7 @@
 
 class Core
 {
-    protected $controller = 'app';
+    protected $controller = 'App';
     protected $method = 'index';
     protected $parameters = [];
     protected $query = "";
@@ -29,7 +29,7 @@ class Core
         require_once '../app/controllers/'.$this->controller.'.php';
 
         if (isset($url[1])){
-            if (method_exists($this->controller,$url[1])){
+            if (method_exists($this->controller,$url[0])){
              $this->method = ucwords($url[1]);
              unset($url[1]);
             }
